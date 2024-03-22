@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "omnismolestiae",
+  "author": "RosendoWolff",
+  "module": "dist/intents.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/intents.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/intents.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.2.6",
+    "husky": "^8.0.3",
+    "size-limit": "^8.2.6",
+    "ts-node": "^10.9.1",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "description": "DeFi Building Blocks - powered by Rivendell",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VilmaWolf/omnismolestiae.git"
+  },
+  "keywords": [
+    "intents",
+    "enim",
+    "aliquam",
+    "bytekode-labs",
+    "adipisci",
+    "rivendell",
+    "perspiciatis",
+    "automation",
+    "modi",
+    "iusto",
+    "nobis",
+    "vel",
+    "quod"
+  ],
+  "bugs": {
+    "url": "https://github.com/VilmaWolf/omnismolestiae.git/issues"
+  }
+}
